@@ -18,29 +18,6 @@ It combines the power of **OCR**, **NLP**, and **Large Language Models (LLMs)** 
 
 ---
 
-## System Architecture Overview
-
-```bash
-                ┌────────────┐
-                │  Upload UI │
-                └────┬───────┘
-                     │
-               [Flask Backend]
-                     │
-     ┌────────────────┴────────────────┐
-     │                                 │
-[PDF/Image Input]              [Text Analysis]
-     │                                 │
- OCR via Tesseract         ┌───────────────┐
- (Image Text)              │ Summarization │  ← LLM (facebook/bart-large-cnn)
- +                         └───────────────┘
- Digital Text via PyMuPDF ┌───────────────┐
- (PDF Text)               │ Named Entities│  ← BERT NER (dslim/bert-base-NER)
-                          └───────────────┘
-````
-
----
-
 ## Project Structure
 
 ```
