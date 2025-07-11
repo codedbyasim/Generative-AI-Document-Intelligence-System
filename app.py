@@ -90,6 +90,9 @@ def download_file(filename):
     return send_from_directory(app.config['OUTPUT_FOLDER'], filename)
 
 if __name__ == '__main__':
+    import os
+    port = int(os.environ.get('PORT', 5000))
     os.makedirs(UPLOAD_FOLDER, exist_ok=True)
     os.makedirs(OUTPUT_FOLDER, exist_ok=True)
-    app.run(debug=True)
+    app.run(debug=False, host='0.0.0.0', port=port)
+
