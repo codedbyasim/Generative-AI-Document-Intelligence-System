@@ -12,7 +12,7 @@ It combines the power of **OCR**, **NLP**, and **Large Language Models (LLMs)** 
 - Upload PDF or image documents
 - Detect and extract both **digital** and **image-based** text
 - Generate smart **summaries** using BART LLM
-- 🏷Extract **Named Entities** (ORG, PERSON, LOCATION, etc.) using BERT NER
+- Extract **Named Entities** (ORG, PERSON, LOCATION, etc.) using BERT NER
 - Output text and summary files available for download
 - Clean, easy-to-use **Flask web interface**
 
