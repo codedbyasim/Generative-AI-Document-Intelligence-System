@@ -171,5 +171,5 @@ MIT – Free to use, modify, and improve.
 
 ## 👤 Author
 
-Built with ❤️ by Asim Hanif
+Built by Asim Hanif
 Feel free to connect and contribute!
